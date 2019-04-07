@@ -1,0 +1,47 @@
+{
+    "pages": [
+        {
+            "path": "pages/accredit/accredit", 
+            "config": { 
+              "navigationBarTitleText": "文章列表1"
+            }
+          },
+          {
+            "path": "pages/index/index", 
+            "config": { 
+              "navigationBarTitleText": "文章列表2"
+            }
+          },
+          {
+            "path": "pages/logs/index", 
+            "config": { 
+              "navigationBarTitleText": "文章列表3"
+            }
+          }
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+      },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#333",
+        "borderStyle": "white",
+        "list": [{
+          "text": "首页",
+          "pagePath": "pages/index/index",
+          "iconPath": "static/tabs/home.png",
+          "selectedIconPath": "static/tabs/home-active.png"
+        }, {
+          "text": "我的",
+          "pagePath": "pages/logs/index",
+          "iconPath": "static/tabs/orders.png",
+          "selectedIconPath": "static/tabs/orders-active.png"
+        }],
+        "position": "bottom"
+    }
+}
